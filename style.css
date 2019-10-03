@@ -1,0 +1,72 @@
+ @import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
+
+    .名字 {
+        font-family: 'Notable', sans-serif;
+        color: white;
+          }
+
+/* .homework { width: 500px;
+            height: 500px;
+            background-image: url("IMG_8391.jpg");
+            background-size: contain;
+
+} */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+} 
+/* rest 網頁內定的padding & margin */
+/* 
+.homework {
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    box-sizing: border-box;
+} */
+
+/*.homeworks {
+    display: flex;
+    justify-content: space-around; /*讓不同的DIV有彈性的分布在網頁*/
+
+
+
+.home {
+    width: 100%;
+    height: 50vh;
+    background-image: url("IMG_8391.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+.about-me{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    
+    }
+
+.left{
+    width: 50%;
+    background-color:green;
+
+    }
+
+.right{
+    width: 50%;
+    background-color: blue;
+    }
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
