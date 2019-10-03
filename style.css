@@ -56,7 +56,11 @@
 
 .left{
     width: 50%;
-    background-color:green;
+    background-image: url("IMG_8496.jpg");
+    background-size:cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
 
     }
 
