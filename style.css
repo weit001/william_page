@@ -1,76 +1,94 @@
- @import url('https://fonts.googleapis.com/css?family=Notable&display=swap');
-
-    .名字 {
-        font-family: 'Notable', sans-serif;
-        color: white;
-          }
-
-/* .homework { width: 500px;
-            height: 500px;
-            background-image: url("IMG_8391.jpg");
-            background-size: contain;
-
-} */
-
+@import url('https://fonts.google.com/?selection.family=Noto+Sans+TC|Source+Sans+Pro'); 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0
 } 
-/* rest 網頁內定的padding & margin */
-/* 
-.homework {
-    width: 100px;
-    height: 100px;
-    border: 1px solid red;
-    margin: 10px;
-    padding: 10px;
-    background-color: blue;
-    box-sizing: border-box;
-} */
+body {
+font-family: "Noto+Sans+TC";
+}
 
-/*.homeworks {
+nav {
+position: fixed;
+height: 50px;
+width: 100%;
+background-color: rgb(54, 221, 247); 
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+nav a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+}
+section {
+    height:100vh;
+    width:100%;
+}
+.Top {
+    background-image: url("IMG_8961-1.jpg");
+    background-size: cover;
     display: flex;
-    justify-content: space-around; /*讓不同的DIV有彈性的分布在網頁*/
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: white;
+}
+.About-me {
+    background-color: rgb(248, 255, 190);
+    display: flex;
+  }
 
-
-
-.home {
-    width: 100%;
-    height: 50vh;
-    background-image: url("IMG_8391.jpg");
+.right {
+    width: 50%;
+    height: 100%;
+    background-image: url("IMG_20190921_162552.jpg");
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  }
 
-    }
-
-.about-me{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    
-    }
-
-.left{
+.left {
     width: 50%;
-    background-image: url("IMG_8496.jpg");
-    background-size:cover;
-    background-position: center;
-    justify-content: center;
-    align-items: center;
-
-    }
-
-.right{
-    width: 50%;
-    background-color: blue;
-    }
-
-.text {
+    height: 100%;
+    background-color: rgb(54, 221, 247);
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    line-height: 250%;
 }
+
+.Bottom {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    background-color: rgb(54, 221, 247);
+}
+
+.Bottom-1 {
+    width: 33%;
+    height: 100%;
+    background-image: url("group4.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Bottom-2 {
+    width: 33%;
+    height: 100%;
+    background-image: url("IMG_8963.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.Bottom-3 {
+  width: 34%;
+  height: 100%;
+  background-image: url("IMG_8964.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
